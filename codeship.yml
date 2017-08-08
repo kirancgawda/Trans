@@ -1,8 +1,8 @@
 install:
   - npm install -g appium
 before_script:
-  - touch codeship-yaml-was-here
+  - npm -version
 script:
-  - appium
+  - echo "Welcome to IT World"
 after_success:
-  - echo "Now we can deploy"
+  - echo "Now Enjoy in IT"
