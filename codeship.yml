@@ -1,0 +1,8 @@
+install:
+  - npm install -g appium
+before_script:
+  - touch codeship-yaml-was-here
+script:
+  - appium
+after_success:
+  - echo "Now we can deploy"
