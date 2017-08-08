@@ -4,6 +4,6 @@ jobs:
      docker:
        - image: circleci/openjdk:8
      steps:
-      - checkout
+       - checkout
        - run: echo "Welcome to java"
 
