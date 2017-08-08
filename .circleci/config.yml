@@ -2,7 +2,7 @@ version: 2
 jobs:
    build:
      docker:
-       - image: circleci/java:1.8.0_45
+       - image: circleci/openjdk:[8]
      steps:
        - checkout
        - run: echo "Welcome to java"
