@@ -10,5 +10,5 @@ jdk: oraclejdk8
 
 script:
 - which java
-- cd Learning && mvn clean compile assembly:single
+- cd Learning
 - ls
