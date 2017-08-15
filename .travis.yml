@@ -1,0 +1,8 @@
+language: java
+sudo: false
+jdk: oraclejdk8
+
+script:
+- which java
+#- cd Appium && mvn clean compile assembly:single
+- ls
