@@ -1,0 +1,8 @@
+install:
+  - npm install -g appium
+before_script:
+  - npm -version
+script:
+  - echo "Welcome to IT World"
+after_success:
+  - echo "Now Enjoy in IT"
