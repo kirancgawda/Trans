@@ -7,6 +7,8 @@ public class Hello2 {
 		String value = "def";
 		
 		System.out.println(value);
+		
+		System.out.println("Hello......");
 
 	}
 
