@@ -8,7 +8,7 @@ public class Hello2 {
 		
 		System.out.println(value);
 		
-		System.out.println("Hello......");
+		System.out.println("Hello..fuck");
 
 	}
 
